@@ -1,0 +1,28 @@
+@import "variables.less";
+@import "mixins.less";
+@import "normalize.less";
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cards__item {
+	position: relative;
+	margin: auto;
+	.cards__subscription {
+	color: @color-yellow;
+	}
+	figcaption {
+		font-family: 'TrebuchetMS-Bold', Helvetica, Arial, sans-serif;
+		font-size: 13px;
+		color: @color-white;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		text-align: center;
+		a {
+			text-decoration: none;
+			color: @color-blue;
+			border-bottom: 1px dotted @color-blue;
+		}
+	}
+}
