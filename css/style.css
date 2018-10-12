@@ -330,7 +330,6 @@ template {
 .main-block__wrapper {
   margin: auto;
   width: 1120px;
-  border: 2px solid white;
 }
 .main-block__wrapper h2 {
   font-family: 'Exo2.0-Thin', Helvetica, Arial, sans-serif;
